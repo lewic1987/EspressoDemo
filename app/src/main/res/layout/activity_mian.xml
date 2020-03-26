@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goRecyclerViewPageTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#dddddd"
+                android:padding="10dp"
+                android:text="goRecyclerViewPage" />
+
+            <TextView
+                android:id="@+id/goListViewPageTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#dddddd"
+                android:padding="10dp"
+                android:text="goListViewPage" />
+
+            <TextView
+                android:id="@+id/sayHelloTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#dddddd"
+                android:padding="10dp"
+                android:text="sayHello" />
+
+            <EditText
+                android:id="@+id/testEditText"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/goIdlingResourcePageTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#dddddd"
+                android:padding="10dp"
+                android:text="goIdlingResourcePage" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

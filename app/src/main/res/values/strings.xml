@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EspressoDemo</string>
+    <string name="hello_world">Hello Espresso!</string>
+    <string name="change_text">Change text taking some time</string>
+    <string name="type_something">type something…</string>
+    <string name="waiting_msg">Waiting for message…</string>
+</resources>
